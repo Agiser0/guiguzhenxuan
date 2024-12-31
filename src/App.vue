@@ -1,10 +1,12 @@
 <script setup lang="ts">
-	const str = 'sdjak'
+	const str = 'sdjak';;;
 </script>
 
 <template>
 	<h1>
 		根目录
+		<h2>dsf</h2>
+		<h2>dsf</h2>
 		<h2>dsf</h2>
 	</h1>
 </template>
