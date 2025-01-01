@@ -19,4 +19,12 @@ app.use(ElementPlus, {
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
 	app.component(key, component)
 }
+
+// 引入自定义插件对象：注册整个项目全局组件
+import globalComponents from '@/components'
+// 安装自定义插件
+app.use(globalComponents)
+// 引入模板全局样式
+import '@/style/index.scss'
+
 app.mount('#app')
