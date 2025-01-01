@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import {
-	Message
-} from '@element-plus/icons-vue'
-import Test from '@/components/Test.vue'
+	import { Message } from '@element-plus/icons-vue'
+	import Test from '@/components/Test.vue'
 </script>
 
 <template>
@@ -18,11 +16,9 @@ import Test from '@/components/Test.vue'
 </template>
 
 <style scoped lang="scss">
-h1 {
-
-	width: 600px,
-	h2 {
-		height: 300px;
+	h1 {
+		width: 600px, h2 {
+			height: 300px;
+		}
 	}
-}
 </style>
