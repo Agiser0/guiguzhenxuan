@@ -22,7 +22,7 @@
 		"allowJs": true, //允许使用js
 		"noImplicitAny": false /* 不允许隐式的any类型 */,
 		"forceConsistentCasingInFileNames": true /* 是否强制代码中使用的模块文件名必须和文件系统中的文件名保持大小写一致 */,
-		"baseUrl": ".", //查询的基础路径
+		"baseUrl": "./", //查询的基础路径  改了，之前为 .
 		"paths": { "@/*": ["src/*"], "#/*": ["types/*"] }, //路径映射,配合别名使用
 		"types": [
 			// 编译过程中被包含进来的类型声明文件

@@ -1,24 +1,28 @@
 <script setup lang="ts">
-	const str = 'sdjak'
+import {
+	Message
+} from '@element-plus/icons-vue'
+import Test from '@/components/Test.vue'
 </script>
 
 <template>
 	<h1>
 		根目录
-		<h2>dsf</h2>
-		<h2>dsf</h2>
-		<h2>dsf</h2>
-		<h2>dsf</h2>
-		<h2>dsf</h2>
-		<h2>dsf</h2>
-		<h2>dsf</h2>
+		<el-button type="info" :icon="Message" circle />
+		<Test></Test>
 	</h1>
+	<svg>
+		<!-- 属性值为 #icon- 加上图标名称 -->
+		<use xlink:href="#icon-up"></use>
+	</svg>
 </template>
 
 <style scoped lang="scss">
-	h1 {
-		width: 600px, h2 {
-			height: 300px;
-		}
+h1 {
+
+	width: 600px,
+	h2 {
+		height: 300px;
 	}
+}
 </style>
